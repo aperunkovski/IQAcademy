@@ -1,0 +1,993 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQ Online Academy</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/iqacademyicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="nav-menu">
+    <nav class="container">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="programs.html" class="nav-link">Programs</a></li>
+        <a href="/" id="logo">
+          <img src="img/logo.png" alt="logo" width="113" height="77"> </a>
+        <li class="nav-item"><a href="#" class="nav-link">Instructors</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="heroshot">
+
+      <div class="hero-container">
+        <div class="hero-video">
+          <video controls class="herovideo" autoplay muted loop playsinline>. >
+            <source src="videos/herovideo.mp4" type="video/mp4" width="560" height="350">
+          </video>
+        </div>
+
+        <div id="heroshot" class="hero-shot">
+          <h1>OUR MISSION: EXCELLENCE IN EDUCATION</h1>
+          <h2>IQ Online Academy</h2>
+          <p>We provide globally recognized certification, expert mentorship, and practical training to prepare
+            professionals for success in today's evolving digital and creative industries.
+          </p>
+          <button class="btn">Enroll Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-container">
+        <h3>Never Miss an Opportunity to Learn and Grow</h3>
+        <p>
+          Subscribe to our mailing list and be the first to hear about new programs, enrollment deadlines, exclusive
+          learning resources, and career opportunities from the International Online Learning Academy
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email..." />
+          <button class="btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="programs container">
+      <h2>Explore Our Programs</h2>
+      <p class="program-explanation">
+        Explore accredited courses designed to equip you with practical skills, global certification, and real career
+        opportunities.
+      </p>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/digitalmarketing.jpg" alt="digital-marketing" width="333" height="333">
+              <h3>Digital Marketing Academy</h3>
+              <p>Learn the strategies and tools that drive modern businesses online, with hands-on projects and industry
+                mentorship.</p>
+              <button class="secondary-btn" onclick="controlPop('pop-digital', true)">Learn More</button>
+
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/graphicdesign.jpg" alt="graphic-design" width="333" height="333">
+              <h3>Graphic Design Academy</h3>
+              <p>Develop creative and technical skills using industry tools to build a professional design portfolio.
+              </p>
+              <button class="secondary-btn" onclick="controlPop('pop-graphic', true)">Learn More</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/uxuiacademy.jpg" alt="ux-ui" width="333" height="333">
+              <h3>UX/UI Academy</h3>
+              <p>Learn how to design user-friendly digital experiences through research, prototyping, and real-world
+                case studies.</p>
+              <button class="secondary-btn" onclick="controlPop('pop-uxui', true)">Learn More</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/motiongraphics.jpg" alt="motion-graphics" width="333" height="333">
+              <h3>Motion Graphics Academy</h3>
+              <p>Master the art of visual storytelling through animation, design, and motion techniques that bring ideas
+                to life.</p>
+              <button class="secondary-btn" onclick="controlPop('pop-motion', true)">Learn More</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/interiordesign.jpg" alt="interior-design" width="333" height="333">
+              <h3>Interior Design Academy</h3>
+              <p>Learn how to create functional, stylish, and inspiring spaces with practical design skills and
+                professional guidance.</p>
+              <button class="secondary-btn" onclick="controlPop('pop-interior', true)">Learn More</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/frontend.jpg" alt="frontend" width="333" height="333">
+              <h3>Front-End Academy</h3>
+              <p>Build modern, responsive, and user-friendly websites by developing hands-on coding and design
+                expertise.</p>
+              <button class="secondary-btn" onclick="controlPop('pop-frontend', true)">Learn More</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="student">
+      <div class="container">
+        <div class="swiper student-swiper">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="student-card">
+                <h2>Student Testimonial</h2>
+                <div class="student-pic-wrapper">
+                  <img class="student-pic" src="img/student1.jpg" alt="Sara Stevoska">
+                </div>
+                <p class="comment">
+                  "The Graphic Design Academy created an environment where I could push my creativity while also
+                  mastering the tools and principles every designer needs."
+                </p>
+                <span class="student-name">Sara Stevoska</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="student-card">
+                <h2>Student Testimonial</h2>
+                <div class="student-pic-wrapper">
+                  <img class="student-pic" src="img/student2.png" alt="Martina Kuzmanovski">
+                </div>
+                <p class="comment">
+                  "The UX/UI Academy helped me understand how to design with purpose — blending creativity, research,
+                  and user empathy to create digital experiences that truly work."
+                </p>
+                <span class="student-name">Martina Kuzmanovski</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-button-prev student-prev"></div>
+          <div class="swiper-button-next student-next"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="partners-container">
+        <h2>Our Partners</h2>
+        <div class="partner-logos">
+          <img src="img/partner1-storyland.png" width="132" height="140">
+          <img src="img/partner2-bc.png" width="176" height="142">
+          <img src="img/partner3-tbm.png" width="152" height="55">
+          <img src="img/partner4-ifd.png" width="137" height="137">
+          <img src="img/partner5-alfaplam.png" width="266" height="40">
+          <img src="img/partner6-ecom.png" width="141" height="140">
+            <img src="img/partner1-storyland.png" width="132" height="140">
+          <img src="img/partner2-bc.png" width="176" height="142">
+          <img src="img/partner3-tbm.png" width="152" height="55">
+          <img src="img/partner4-ifd.png" width="137" height="137">
+          <img src="img/partner5-alfaplam.png" width="266" height="40">
+          <img src="img/partner6-ecom.png" width="141" height="140">
+        </div>
+      </div>
+    </section>
+    
+    <section class="enroll">
+      <div class="enroll-container"></div>
+      <div class="enroll-content">
+        <h1>Ready to start your journey?</h1>
+        <p>Don't miss your chance to join the next intake. Spaces are limited.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+      <div class="enroll-video">
+        <video controls class="enrollvideo" autoplay muted loop playsinline>. >
+          <source src="videos/enroll.mp4" type="video/mp4" width="560" height="350">
+        </video>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="IQ Academy Logo" width="135" height="92">
+          <img src="img/cpd.png" alt="CPD Accredited" width="91" height="92">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/IQOnlineAcademyMK/" target="_blank"><img src="img/facebook-icon.svg" alt="Facebook"
+                width="32.5" height="32.5"></a>
+            <a href="https://www.instagram.com/iqonlineacademy/?hl=en" target="_blank"><img src="img/insta-icon.svg"
+                alt="Instagram" width="32.5" height="32.5"></a>
+            <a href="https://mk.linkedin.com/company/iq-online-academy" target="_blank"><img src="img/linkedin-icon.svg"
+                alt="LinkedIn" width="32.5" height="32.5"></a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p>info@iqonlineacademy.com</p>
+          <p>Bul. Partizanski Odredi 52-1/10<br>1000, Skopje</p>
+          <p>+389 70 65 16 65</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; All Rights Reserved IQ Online Academy 2025</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <div id="pop-digital" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-digital', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>Digital Marketing Academy</h1>
+          <p>Master SEO, social media, content strategy, and analytics through expert-led online training designed to
+            equip you with the skills to plan, execute, and optimize successful digital campaigns.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/digitalmarketing.jpg" alt="Digital Marketing">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>The program introduces you to the core areas of modern marketing, including SEO, social media, content, and
+          analytics. Through guided lessons and practical exercises, you’ll gain the skills to design and manage
+          campaigns that deliver measurable results.</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>November Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 2 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">1,599€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                 <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+                <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-graphic" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-graphic', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>Graphic Design Academy</h1>
+          <p>Master branding, typography, and digital design through expert-led online training designed to equip you
+            with the necessary skills to create, communicate, and elevate powerful visual identities.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/graphicdesign.jpg" alt="Grapic Desogn">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>The program covers key areas of modern design—from concept and layout to typography and digital
+          media—preparing you to create professional, market-ready visuals.</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>October Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 2 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">1,699€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+               <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-uxui" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-uxui', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>UX/UI Academy</h1>
+          <p>Master user experience and interface design through hands-on projects and expert mentorship designed to
+            equip you with the skills to craft intuitive, engaging, and visually stunning digital products.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/uxuiacademy.jpg" alt="Uxui">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>Learn the complete design process from research and wireframing to prototyping and testing. This program
+          helps you build a strong foundation in design thinking, usability, and visual design to create seamless
+          digital experiences..</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>February Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 5 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">1,699€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                 <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+                 <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-motion" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-motion', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>Motion Graphics Academy</h1>
+          <p>Master animation, storytelling, and visual effects through expert-led lessons, hands-on creative projects,
+            and industry-standard tools designed to equip you with the skills to bring ideas to life with motion,
+            rhythm, and visual impact.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/motiongraphics.jpg" alt="Motion Graphics">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>Develop your creative and technical skills in animation, compositing, and visual storytelling. You’ll explore
+          industry tools like After Effects and Premiere Pro while producing dynamic motion projects that showcase your
+          style and creativity.</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>June 2026 Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 5 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">2,099€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                 <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+                 <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-interior" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-interior', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>Interior Design Academy</h1>
+          <p>Master spatial planning, color theory, and 3D visualization through expert-led training, creative studio
+            projects, and real-world design challenges designed to equip you with the skills to craft functional,
+            aesthetic, and inspiring interior spaces.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/interiordesign.jpg" alt="Interior Design">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>Explore the full interior design process — from concept and color theory to space planning and materials.
+          Through practical projects, you’ll learn to design functional and visually captivating spaces for modern
+          living.</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>November Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 2 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">2,099€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+                 <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pop-frontend" class="full-popup">
+    <div class="popup-container">
+      <button class="close-x" onclick="controlPop('pop-frontend', false)">&times;</button>
+
+      <div class="pop-header">
+        <div class="pop-text">
+          <h6>FOCUSED ON PRACTICAL SKILLS</h6>
+          <h1>Front-End Academy</h1>
+          <p>Master web design, coding, and interactivity through practical training, real-world assignments, and expert
+            mentorship designed to equip you with the skills to build responsive, user-centered, and visually dynamic
+            digital experiences.</p>
+          <button class="btn-main">Enroll Now</button>
+        </div>
+        <div class="pop-img">
+          <img src="img/frontend.jpg" alt="Frontend">
+        </div>
+      </div>
+      <div class="pop-section">
+        <h3>Program Overview</h3>
+        <p>Master web design, coding, and interactivity through practical training and real-world projects designed to
+          equip you with the skills to build responsive, user-focused, and visually dynamic websites.</p>
+      </div>
+      <div class="pop-container">
+        <div class="pop-info">
+          <div class="intro">
+            <h3>Program Highlights</h3>
+            <p>Gain the essential skills, certification, and real-world experience to launch your career in digital
+              marketing.</p>
+            <button class="btn-main">View Full Program</button>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Globe.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>International Diploma</h4>
+              <p>Earn a CPD-certified diploma recognized across Europe and beyond.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Clock.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Flexible Duration</h4>
+              <p>Complete the program in 4-5 months with interactive online classes.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Briefcase.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Real Projects</h4>
+              <p>Work on campaigns with local and international companies.</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-wrapper">
+                <img src="img/Ellipse 5.svg" alt="elipse" class="icon-elipse">
+                <img src="img/Launch.svg" alt="icon" class="btn-icon">
+              </div>
+              <h4>Career Pathway</h4>
+              <p>Top students secure paid internships with opportunities for full-time roles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-section-container">
+          <div class="info">
+            <button class="pricing-btn">PRICING</button>
+            <h3>Invest in Your Future</h3>
+            <p class="subtitle">One clear price, with international certification and career opportunities included.</p>
+
+            <div class="pop-pricing">
+              <div class="enroll-box">
+                <h2>March 2026 Enrollment Now Open</h2>
+                <p>Includes EU CPD International Certificate</p>
+                <ul class="features-list">
+                  <li><img src="img/Bulb.svg" alt="icon" class="list-icon"> Only 4 spots left</li>
+                  <li><img src="img/Card.svg" alt="icon" class="list-icon"> Pay in up to 8 installments</li>
+                </ul>
+                <button class="btn-enroll">Enroll Now</button>
+              </div>
+
+              <div class="price-box">
+                <div class="price-container">
+                  <div class="price-details">
+                    <h2>Program Price</h2>
+                    <p>Full program cost with flexible payment options available.</p>
+                    <div class="price-value">2,099€ + VAT</div>
+                  </div>
+
+                  <div class="vertical-divider"></div>
+
+                  <div class="features-details">
+                    <span class="features-label">FEATURES</span>
+                    <ul class="check-list">
+                      <li>✓ EU CPD International Certificate</li>
+                      <li>✓ Expert mentorship</li>
+                      <li>✓ Practical projects</li>
+                      <li>✓ Guaranteed internship</li>
+                      <li>✓ Flexible payments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-content">
+              <p class="consultation-text">Schedule a free consultation with our program coordinator and discover if
+                this academy is the right fit for you.</p>
+              <div class="buttons">
+                 <a href="https://calendly.com/info-iq-online-academy/15min?month=2026-01" class="btn-main" target="_blank">Schedule</a>
+                 <a href="programs.html" class="btn-main btn-long">Explore Other Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</html>

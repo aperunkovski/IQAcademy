@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Source';
+  src: url(/fonts/source-sans-pro.regular.woff2) format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source';
+  src: url(/fonts/source-sans-pro.light.woff2) format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url(/fonts/playfair-display.regular.woff2) format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Domine';
+  src: url(/fonts/domine.regular.woff2) format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Source';
+  src: url(/fonts/source-sans-pro.semibold.woff2) format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Source';
+  src: url(/fonts/source-sans-pro.extralight.woff2) format('woff');
+  font-weight: 200;
+}
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-grey: #E8E8E8;
+$color-blue: #089D93;
+$color-cream: #FFFAFA;
+$color-dusty: #62A1A4;
+
+
+$grid-breakpoints: (
+  "xs": 420px,
+  "s": 560px,
+  "m": 768px,
+  "l": 1024px,
+  "xl": 1200px
+);
