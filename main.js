@@ -8,6 +8,11 @@ const swiper = new Swiper('.mySwiper', {
   slidesPerGroup: 3,
   spaceBetween: 40,
 
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -92,4 +97,11 @@ function closePopup(id) {
     }
 }
 
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    burger.classList.toggle('open');
+  });
 
